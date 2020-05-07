@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Anand's Blog
-description: This is an experiment with blogging using GitHub pages and https://www.fast.ai - automatic! fast_template
+description: This is an experiment with blogging using GitHub pages and [fastai](https://www.fast.ai) fast_template
 github_username: digitalanandh
 
 # Email and twitter are optional:
