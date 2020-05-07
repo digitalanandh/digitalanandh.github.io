@@ -13,5 +13,5 @@ to update the weights of the later layers (especially the head).
 
 **_How does this work?_**  
 The answer lies in understanding how the deep learning model learns to identify the different objects/features or parts of the objects layer by layer.  
-The work done by Matt Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to 
+The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to 
 visualize the neural network weights learner in each layer of the model. 
