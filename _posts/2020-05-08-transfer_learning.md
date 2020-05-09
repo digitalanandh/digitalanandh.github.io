@@ -15,6 +15,7 @@ to update the weights of the later layers (especially the head).
 The answer lies in understanding how the deep learning model learns to identify the different objects/features or parts of the objects layer by layer.  
 The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to visualize the neural network weights learner in each layer of the model. 
 
-If we look at couple of images of activations of early layers of a CNN, we should be able to understand how transfer learning works and how it can be helpful in a lot of other tasks.  
-![Layer1](blob/master/images/layer1.png "Activations of early layers of a CNN by Matthew D. Zeiler and Rob Fergus")
+If we look at couple of images of activations of early layers of a CNN, we should be able to understand how transfer learning works and how it can be helpful in a lot of other tasks.
+
+![Layer1](../images/layer1.png "Activations of early layers of a CNN by Matthew D. Zeiler and Rob Fergus")
 
