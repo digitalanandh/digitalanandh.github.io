@@ -16,3 +16,4 @@ The answer lies in understanding how the deep learning model learns to identify 
 The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to visualize the neural network weights learner in each layer of the model. 
 
 If we look at couple of images of activations of early layers of a CNN, we should be able to understand how transfer learning works and how it can be helpful in a lot of other tasks.
+![Activation of early layers of a CNN (courtesy of Matther D. Zeiler and Rob Fergus)](images/layer1.png)
