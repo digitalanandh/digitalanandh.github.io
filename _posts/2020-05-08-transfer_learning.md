@@ -6,11 +6,11 @@ Common examples of transfer learning can be seen in image recognition space. A p
 
 One more field where transfer learning has been useful is the speech recognition using recurrent neural networks.
 
-For transfer learning, we ususally delete the last layer(s) of the pre-trained model usually called the head and then run the model again on the new dataset to update the weights of the later layers (especially the head).
+For transfer learning, we usually delete the last layer(s) of the pre-trained model usually called the head and then run the model again on the new dataset to update the weights of the later layers (especially the head).
 
 **_How does this work?_**  
 The answer lies in understanding how the deep learning model learns to identify the different objects/features or parts of the objects layer by layer.  
-The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to visualize the neural network weights learner in each layer of the model. 
+The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf) shows how to visualize the neural network weights learner in each layer of the model.
 
 If we look at couple of images of activations of early layers of a CNN, we should be able to understand how transfer learning works and how it can be helpful in a lot of other tasks.
 
@@ -27,9 +27,9 @@ Similarly, the higher level layers of the neural network are able to learn about
 Since, the lower layers in the pre-trained models learn about basic building blocks of computer vision, which highly resembles the basic visual machinery of human eye, they can be used in other domains of computer vision or image recognition. This is how a pre-trained model with a little bit of fine tuning can help us in other aspects of our study.  
 
 Currently, there are only few domains (image recognition, speech recognition etc.) where we have pre-trained models available (at least during the writing of this post). It would be really great to have these pre-trained models for as many domains as possible.  
-  
 
-  
+
+
 >**References:**
 >
 >1. [Book: Deep Learning for Coders with fastai and PyTorch](https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/)  
