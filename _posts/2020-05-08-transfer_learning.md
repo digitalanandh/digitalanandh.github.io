@@ -23,5 +23,14 @@ The next layer is shown below.
 
 The left hand side of the image shows the reconstruction of model weights and the right hand side of the image shows small patches from the actual images which these features most closely match. We can see that the model has learnt to create feature detectors that look like corners, repearing lines, circles and other simple patterns.  
 
-Similarly, the higher level layers of the neural network are able to learn about high level semantic components like ears, legs, tails (in case of cats and dogs classifier) etc.
-Since, the lower layers in the pre-trained models learn about basic building blocks of computer vision, which highly resembles the basic visual machinery in human eye, they can be used in other domains of computer vision or image recognition.
+Similarly, the higher level layers of the neural network are able to learn about high level semantic components like ears, legs, tails (in case of animal classifier) etc.  
+Since, the lower layers in the pre-trained models learn about basic building blocks of computer vision, which highly resembles the basic visual machinery of human eye, they can be used in other domains of computer vision or image recognition. This is how a pre-trained model with a little bit of fine tuning can help us in other aspects of our study.  
+
+Currently, there are only few domains (image recognition, speech recognition etc.) where we have pre-trained models available (at least during the writing of this post). It would be really great to have these pre-trained models for as many domains as possible.  
+
+
+
+>**References:**
+>
+>1. [Book: Deep Learning for Coders with fastai and PyTorch](https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/)  
+>2. [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901)
