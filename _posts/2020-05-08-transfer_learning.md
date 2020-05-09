@@ -17,5 +17,5 @@ The work done by Matthew Zeiler and Rob Fergus [Visualizing and Understanding Co
 
 If we look at couple of images of activations of early layers of a CNN, we should be able to understand how transfer learning works and how it can be helpful in a lot of other tasks.
 
-![Layer1](../images/layer1.png "Activations of early layers of a CNN by Matthew D. Zeiler and Rob Fergus")
+![Layer1](/images/layer1.png "Activations of early layers of a CNN by Matthew D. Zeiler and Rob Fergus")
 
