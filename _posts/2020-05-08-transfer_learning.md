@@ -21,7 +21,7 @@ If we look at the subset of the features which is shown in the image above, we c
 The next layer is shown below.
 ![Layer2](/images/layer2.png "Activations of early layers of a CNN by Matthew D. Zeiler and Rob Fergus")  
 
-The left hand side of the image shows the reconstruction of model weights and the right hand side of the image shows small patches from the actual images which these features most closely match. We can see that the model has learnt to create feature detectors that look like corners, repearing lines, circles and other simple patterns.  
+The left hand side of the image shows the reconstruction of model weights and the right hand side of the image shows small patches from the actual images which these features most closely match. We can see that the model has learnt to create feature detectors that look like corners, repeating lines, circles and other simple patterns.  
 
 Similarly, the higher level layers of the neural network are able to learn about high level semantic components like ears, legs, tails (in case of animal classifier) etc.  
 Since, the lower layers in the pre-trained models learn about basic building blocks of computer vision, which highly resembles the basic visual machinery of human eye, they can be used in other domains of computer vision or image recognition. This is how a pre-trained model with a little bit of fine tuning can help us in other aspects of our study.  
